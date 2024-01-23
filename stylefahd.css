@@ -1,0 +1,65 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height:180vh;
+    background-color: black;
+    background-image: url(road.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    background-color:white;
+    color: #43a9d1;
+    padding: 10px;
+    text-align: center;
+}
+main {
+    padding: 20px;
+    height: 100%;
+}
+.left{
+    height: 100%;
+    width: 45%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    height: 100%;
+    width: 45%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+article {
+    background-color: #eee;
+    height: 100%;
+    width: 100%;
+    float: left;
+    margin-top: 5%;
+}
+nav {
+    background-color: #eee;
+    height: 100%;
+    width: 100%;
+    float: right;
+    margin-top: 5%;
+}
+img {
+    max-width: 100%;
+    width: 60%;
+    margin-left: 15%;
+}
+button{
+    color:white;
+    background-color: black; 
+    margin-left: 40%;
+}
+
+h2{
+    text-align: center;
+}
